@@ -1,0 +1,75 @@
+body {
+    background-image: url("template.jpg");
+    background-size: cover;
+}
+
+    
+input[type=number], select, textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid rgb(33, 44, 190);
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #77cf7a;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+    margin-right: 40px;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #3a9c3f;
+  }
+  
+  input[type=reset] {
+    background-color: #6134df;
+    color: white;
+    padding: 10px 40px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 40px;
+  }
+  
+  input[type=reset]:hover {
+    background-color: #1924c9;
+  }
+  
+
+
+  .center {
+    margin: auto;
+    width: 50%;
+    border: 1px solid rgba(19, 0, 128, 0.089);
+    padding: 90px; 
+    max-width: 80%;
+  }
+  
+  .judul{
+      text-align: center;
+  }
+  
+  table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background-color: rgba(136, 144, 221, 0.363);
+  }
+  
+  td, th {
+    border: 1px solid #14063d;
+    text-align: left;
+    padding: 8px;
+  }
+
+  
+  
